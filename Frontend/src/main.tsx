@@ -14,6 +14,10 @@ const router = createBrowserRouter([
     path: "note/:id",
     element: <NoteDetail />,
   },
+  {
+    path: "note/new",
+    element: <NoteDetail />,
+  },
 ]);
 
 createRoot(document.getElementById("root")!).render(
